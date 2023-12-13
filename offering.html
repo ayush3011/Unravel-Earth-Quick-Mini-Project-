@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="offeringstyles.css">
+    <title>Travel and Tourism</title>
+</head>
+<body>
+
+    <header>
+        <h1>Our Offerings</h1>
+    </header>
+
+    <section id="offerings">
+        <div class="offering" onclick="showDetails('offering1')">
+            <img src="images/IMG20211106125003.jpg" alt="Destination 1">
+            <h2>Beas Valley</h2>
+            <p>
+Beas Valley, nestled in the scenic Himalayan region of Himachal Pradesh, India, is renowned for its breathtaking landscapes and the meandering Beas River. Surrounded by snow-capped peaks, this picturesque valley attracts nature enthusiasts and adventure seekers alike, offering a perfect blend of tranquility and outdoor excitement.</p>
+        </div>
+
+        <div class="offering" onclick="showDetails('offering2')">
+            <img src="images/image00021 (1).jpeg" alt="Destination 2">
+            <h2>Kheerganga Rudranath</h2>
+            <p>
+Kheerganga, situated in the Parvati Valley of Himachal Pradesh, is famed for its natural hot springs and stunning mountain vistas, making it a popular trekking destination. Rudranath, on the other hand, is a sacred Hindu pilgrimage site in the Chamoli district of Uttarakhand, dedicated to Lord Shiva, where the Rudranath Temple stands amidst pristine Himalayan beauty.</p>
+        </div>
+    </section>
+
+    <section id="details">
+        <div id="offering1" class="details-content">
+            <img src="destination1.jpg" alt="Destination 1">
+            <h2>Amazing Destination 1</h2>
+            <p>Details about Destination 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button onclick="hideDetails('offering1')">Close</button>
+        </div>
+
+        <div id="offering2" class="details-content">
+            <img src="destination2.jpg" alt="Destination 2">
+            <h2>Exciting Destination 2</h2>
+            <p>Details about Destination 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button onclick="hideDetails('offering2')">Close</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
