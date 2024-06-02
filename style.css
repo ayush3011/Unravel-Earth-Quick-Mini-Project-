@@ -34,7 +34,7 @@ header nav{
 header nav a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 header nav ul{
     list-style: none;
@@ -54,7 +54,7 @@ header nav ul li:nth-last-child(1) a {
 header nav ul li a{
     text-decoration: none;
     color: black ;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 500;
     transition: .3s linear;
 }

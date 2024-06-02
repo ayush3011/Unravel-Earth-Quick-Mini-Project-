@@ -30,7 +30,7 @@ header {
 
 .offering img {
     width: 100%;
-    max-height: 200px;
+    max-height: 400px;
     object-fit: cover;
 }
 
